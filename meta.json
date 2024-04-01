@@ -1,0 +1,13 @@
+{
+  "module_id": "viam:torch-cpu",
+  "visibility": "public",
+  "url": "https://github.com/viam-labs/torch",
+  "description": "Viam ML Module service serving PyTorch models.",
+  "models": [
+    {
+      "api": "rdk:service:mlmodel",
+      "model": "viam:mlmodel:torch-cpu"
+    }
+  ],
+  "entrypoint": "run.sh"
+}
